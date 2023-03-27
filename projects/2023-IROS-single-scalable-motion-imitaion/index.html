@@ -1,0 +1,54 @@
+---
+layout: default
+title: "Learning a Single Policy for Diverse Behaviors on a Quadrupedal Robot using Scalable Motion Imitation"
+---
+
+
+<center><h1>{{ page.title }}</h1></center>
+
+<td>
+	<center>
+		arXiv Preprint 2023<br>
+		<br>
+		<nobr>Arnaud Klipfel (1) </nobr> &emsp;&emsp; <nobr> Nitish Sontakke (1) </nobr> &emsp;&emsp; <nobr> Ren Liu (2) </nobr> &emsp;&emsp; <nobr> Sehoon Ha(1) </nobr> &emsp;&emsp;
+		<br>
+		<nobr>(1) Georgia Institute of Tecnology</nobr> &emsp;&emsp; <nobr>(2) Meta Platforms, Inc., USA, 
+        renl@meta.com. Work done while at Georgia Tech.</nobr> &emsp;&emsp;
+		<br>
+		<img style="vertical-align:middle" src="a1_goalkeeping_teaser.png"  width="100%" height="inherit"/>		
+	</center>
+</td>
+
+<br>
+	
+<td>
+	<hr>
+	<h3 style="margin-bottom:10px;">Abstract</h3>
+	Learning various motor skills for quadrupedal robots is a challenging problem that requires careful design of task-specific mathematical models or reward descriptions. In this work, we propose to learn a single capable policy using deep reinforcement learning by imitating a large number of reference motions, including walking, turning, pacing, jumping, sitting, and lying. On top of the existing motion imitation framework, we first carefully design the observation space, the action space, and the reward function to improve the scalability of the learning as well as the robustness of the final policy. In addition, we adopt a novel adaptive motion sampling (AMS) method, which maintains a balance between successful and unsuccessful behaviors. This technique allows the learning algorithm to focus on challenging motor skills and avoid catastrophic forgetting. We demonstrate that the learned policy can exhibit diverse behaviors in simulation by successfully tracking both the training dataset and out-of-distribution trajectories. We also validate the importance of the proposed learning formulation and the adaptive motion sampling scheme by conducting experiments.
+</td>
+
+<td>
+	<h3> Paper: [<a href="aklipfel_2023_single_scalable_motion_imitation.pdf">PDF</a>] &nbsp; &nbsp; &nbsp; Preprint: [<a href="">coming soon on Arxiv</a>] </h3>
+</td>
+
+<tr>
+		<h3 style="margin-bottom:10px;">Video</h3>
+		<iframe width="560" height="315" src="https://www.youtube.com/watch?v=bi2ZjGCgbOk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</tr>
+	
+<br>
+<br>
+
+<!-- <h3 style="margin-bottom:0px;">Bibtex</h3>
+<pre>
+@article{
+	2023AKlipfel-SingleScalableMotionImitation,
+	url = {https://arxiv.org/abs/2210.04435},
+	author = {Huang, Xiaoyu and Li, Zhongyu and Xiang, Yanzhen and Ni, Yiming and Chi, Yufeng and Li, Yunhao and Yang, Lizhi and Peng, Xue Bin and Sreenath, Koushil},
+	keywords = {Robotics (cs.RO), Artificial Intelligence (cs.AI), Systems and Control (eess.SY), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering},
+	title = {Creating a Dynamic Quadrupedal Robotic Goalkeeper with Reinforcement Learning},
+	publisher = {arXiv},
+	year = {2022},
+	copyright = {arXiv.org perpetual, non-exclusive license}
+}
+</pre> -->
